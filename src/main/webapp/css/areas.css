@@ -1,0 +1,377 @@
+@charset "ISO-8859-1";
+
+ 
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+ 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+ 
+      #m {
+  display: flex;
+}
+ 
+ 
+#c1 {
+    /* Set a fixed width and height for the container */
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+ 
+    /* overflow: hidden;
+    white-space: normal; */
+    /* Add any other styles you want for the first container (c1) */
+  }
+ 
+  #c2 {
+    /* Set a fixed width and height for the container */
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+  }
+ 
+  #c2 img {
+    height: 100%; /* Make the image fill the height of the container */
+    width: 100%; /* Make the image fill the width of the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+ 
+  /* stylelint-disable selector-list-comma-newline-after */
+ 
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+ 
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+ 
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+ 
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+ 
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+ 
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+ 
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+ 
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+ 
+.flex-auto {
+  flex: 0 0 auto;
+}
+ 
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+ 
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+ 
+/*
+* Blog posts
+*/
+.blog-post {
+  margin-bottom: 10rem;
+ 
+  
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 4.25rem;
+  color: #727272;
+}
+ 
+/*
+* Footer
+*/
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+table {
+ 
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 550pxs;
+ 
+    /* transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            z-index: 1; */
+  }
+ 
+  table td {
+    padding: 8px;
+    /* border-bottom: 1px solid #ddd; */
+  }
+ 
+  td:first-child {
+    width: 20%; /* Adjust the width for the label column */
+    font-weight: bold;
+  }
+ 
+  td p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  .t{
+    margin-left: 80px;
+  }
+  .btn{
+    margin-left: 120px;
+  }
+ 
+ 
+  .price-tag {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+ 
+  .price-tag:hover {
+    transform: scale(1.05);
+  }
+ 
+ 
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .list-unstyled li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  .list-unstyled button {
+    padding: 10px;
+    background-color: #dee5ea; /* You can customize the background color */
+    color: #170101; /* You can customize the text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .list-unstyled button:hover {
+    background-color: #addbf5; /* You can customize the background color on hover */
+  }
+  
+  /* Style for the container div */
+#FB {
+  margin: 10px; /* Adjust margin as needed */
+}
+
+/* Style for the list items (li) */
+#FB li {
+  list-style: none; /* Remove default list styling */
+  display: inline-block; /* Display li elements horizontally */
+  margin-right: 10px; /* Adjust spacing between li elements as needed */
+}
+
+/* Style for the buttons */
+#FB button {
+  padding: 10px 15px; /* Adjust padding as needed */
+  background-color: #3498db; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Hover effect for buttons */
+#FB button:hover {
+  background-color: #2980b9; /* Change the background color on hover */
+}
+  
+  
+  
+  
+  
+   .sidebar {
+            float: left;
+            width: 250px;
+            height: 100%;
+            background-color: black;
+            padding-top: 20px;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+        }
+
+        .content {
+            margin-left: 0;
+            padding: 1px 16px;
+           
+            flex-grow: 1;
+        }
+ h2 {
+             color: rgb(163, 16, 119); 
+        }
+        .profile-container {
+            text-align:center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            max-width: 150px;
+            width: 100%;
+            float: right;
+        }
+
+        .profile-pic {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .profile-menu .dropdown-menu {
+            right: 0;
+            left: unset;
+        }
+
+        .profile-menu .fa-fw {
+            margin-right: 10px;
+        }
+
+        .toggle-change::after {
+            border-top: 0;
+            border-bottom: 0.3em solid;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: white !important; /* Use !important to override Bootstrap styles */
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav .nav-item {
+            padding: 0 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+        }
+        
+.sidebar a:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    z-index: 2; /* Ensure the hovered link is on top of other elements */
+    box-shadow: 0 0 10px white; /* Add a subtle box shadow on hover */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+ nav {
+            /* styles for the navbar */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+           /* Blue color */
+            width: 100%;
+            
+             background-color: rgb(252, 251, 251);
+    overflow: hidden;
+    
+   
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+        }
+@keyframes blinkHighlight {
+    0% { background-color: #ffa500; } /* Orange color */
+    50% { background-color: transparent; }
+    100% { background-color: #ffa500; } /* Orange color */
+}
+
+.rent-value {
+    animation: blinkHighlight 2s infinite; /* Adjust the duration as needed */
+    display: inline-block; /* Ensure inline-block for the span */
+}
+

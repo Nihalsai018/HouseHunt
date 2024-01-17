@@ -1,0 +1,258 @@
+@charset "ISO-8859-1";
+/*  
+ Nav bar content css */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center; /* Center the content */
+}
+
+#carouselExampleIndicators {
+    max-width: 700px; /* Set the maximum width of the carousel */
+    margin: auto; /* Center the carousel */
+    margin-top: 20px; /* Add some top margin for better spacing */
+    height: 400px; /* Set a fixed height for the carousel */
+    overflow: hidden; /* Hide any overflow beyond the fixed height */
+}
+
+.carousel-inner img {
+    width: 100%; /* Make images fill the width of the carousel container */
+    height: 100%; /* Make images fill the height of the carousel container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+/* MARKETING CONTENT
+        -------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
+        .marketing .col-lg-4 {
+            margin-bottom: 2rem;
+            text-align: center;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #fff; /* Changed background color to white */
+            box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin-top: 50px;
+            
+        }
+
+        .marketing .col-lg-4:hover {
+            border-color: #e2ebeb;
+            background-color: #f8f9fa; /* Hover background color */
+            transform: scale(1.05);
+            box-shadow: 0 16px 16px 8px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+            z-index: 2; /* Ensure it comes forward on hover */
+        }
+
+        .marketing h2 {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+
+        .marketing .col-lg-4 p {
+            margin-right: .75rem;
+            margin-left: .75rem;
+            font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+        }
+
+        /* Custom styling for buttons */
+        .btn-family,
+        .btn-bachelors {
+            background-color: yellowgreen;
+            color: #fff;
+            border: 2px solid transparent;
+            transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-family:hover,
+        .btn-bachelors:hover {
+            background-color: #8dc63f;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+        }
+
+        /* Add margin between columns */
+        .col-lg-4 + .col-lg-4 {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+/* about us page nav */
+.containerclass {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logomaker img {
+    width: 250px; /* Adjust the size of the logo as needed */
+    height: 250px;
+    border-radius: 8px; /* Add border-radius for a rounded appearance */
+    margin-right: 100px; /* Adjust the space between image and text */
+    margin-top: -70px;
+    transform: scale(1.05);
+    box-shadow: 0 16px 16px 8px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+    z-index: 2; 
+}
+
+.text-content1 {
+    flex: 1;
+    text-align: justify;
+ line-height: 1.6; /* Adjust the line height as needed */
+  max-width: 1000px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the content by setting left and right margins to auto */
+            font-size: 18px;
+            
+        }
+
+       
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.highlight-text {
+    font-size: 20px ;
+    font-weight: bold;
+    color: rgb(163, 16, 119);
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about-paragraph {
+    width: 700px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    background-color: rgba(159, 248, 248, 0.116);; /* Subtle background color */
+    padding: 20px; /* Add padding for a card-like appearance */
+    /* Justify the text within paragraphs */
+}
+
+
+/* 
+contact css */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+  
+    padding: 20px;
+    width: 300px;
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    color: #333333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(163, 16, 119); 
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.containercontact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.highlight-text {
+    text-align: center;
+    color: rgb(163, 16, 119); /* Adjust the color as needed */
+}
+
+#contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-content1 {
+    flex-grow: 1;
+}
+
+.gif-maker img {
+    width: 500px; /* Adjust the size of the logo as needed */
+    height: 350px;
+    border-radius: 8px; /* Add border-radius for a rounded appearance */
+    margin-right: 100px; /* Adjust the space between image and text */
+    margin-top: -70px;
+    transform: scale(1.05);
+    box-shadow: 0 16px 16px 8px rgba(159, 248, 248, 0.301); /* Darker shadow on hover */
+    z-index: 2; 
+    
+}
+
+/* form {
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    font-size: 20px ;
+    font-weight: bold;
+  background-color: green;
+    margin-bottom: 10px; /* Adjust the color as needed */
+   
+    cursor: pointer;
+    border-radius: 50px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(35, 169, 202, 0.685);
+    transform: scale(1.05);
+    box-shadow: 0 16px 16px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Add any other existing styles you have */
